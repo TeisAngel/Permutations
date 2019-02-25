@@ -3,6 +3,7 @@ import java.util.ArrayList;
 public class PermutationPick {
 
     public static void main(String[] args) {
+        //args[0] is input
         ArrayList<String> permutation = makePermutation(args[0]);
         System.out.println("List of all permutations " + permutation.toString());
         System.out.println("Total amount of permutations is " + args[0].length() + "!");
